@@ -25,7 +25,7 @@ class BlockChain {
      * Adds the new block to the chain at the end and updates the new currentHash after adding the prev
      */
   addNewBlock(newBlock) {
-    newBlock.prevHash = this.chain[this.fetchLastBlock().currentHash];
+    newBlock.prevHash = this.fetchLastBlock().currentHash;
     newBlock.currentHash = newBlock.calculateHashValue();
     this.chain.push(newBlock);
   }

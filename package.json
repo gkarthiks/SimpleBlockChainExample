@@ -1,0 +1,38 @@
+{
+  "name": "simpleblockchainexample",
+  "version": "1.0.0",
+  "description": "Simple example of implementation and working of Block Chain in JavaScript",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gkarthiks/SimpleBlockChainExample.git"
+  },
+  "keywords": [
+    "BlockChain",
+    "Simple BlockChain",
+    "MultiChain",
+    "BlockChain Example"
+  ],
+  "author": "Karthikeyan Govindaraj",
+  "license": "MIT license",
+  "bugs": {
+    "url": "https://github.com/gkarthiks/SimpleBlockChainExample/issues"
+  },
+  "homepage": "https://github.com/gkarthiks/SimpleBlockChainExample#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-node6": "^11.0.0",
+    "delay": "^2.0.0",
+    "sha256": "^0.2.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}

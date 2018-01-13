@@ -7,12 +7,18 @@ The `Block` class is the basic element in the block chain which holds the `data`
 
 The `BlockChain` is the chain instance which holds the chain of Blocks.
 
+## Prerequisites
+* node
+* npm
+
 ## Execute 
 To run this program, download this code into your local repo and execute using babel-node.
 
 > git clone https://github.com/gkarthiks/SimpleBlockChainExample.git
 
 > cd SimpleBlockChainExample
+
+> npm install
 
 > ./node_modules/babel-cli/bin/babel-node.js index.js 
 

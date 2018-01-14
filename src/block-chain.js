@@ -3,6 +3,7 @@ import Block from './block';
 class BlockChain {
   constructor() {
     this.chain = [this.createGenesisBlock()];
+    this.difficultyLevel = 5;
   }
 
   /**
@@ -26,7 +27,9 @@ class BlockChain {
      */
   addNewBlock(newBlock) {
     newBlock.prevHash = this.fetchLastBlock().currentHash;
+    newBlock.mineBlock(this.difficultyLevel);
     newBlock.currentHash = newBlock.calculateHashValue();
+
     this.chain.push(newBlock);
   }
 }

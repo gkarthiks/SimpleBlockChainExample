@@ -4,11 +4,20 @@
   "description": "Simple example of implementation and working of Block Chain in JavaScript",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "jest": "jest --env=node --colors --coverage test",
+    "test": "npm run jest",
+    "build": "babel src -d dist",
+    "start": "NODE_ENV=production node dist/index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gkarthiks/SimpleBlockChainExample.git"
+  },
+  "jest": {
+    "testMatch": [
+      "<rootDir>test/*-test.js"
+    ],
+    "verbose": true
   },
   "keywords": [
     "BlockChain",
@@ -23,16 +32,19 @@
   },
   "homepage": "https://github.com/gkarthiks/SimpleBlockChainExample#readme",
   "dependencies": {
-    "babel-cli": "^6.26.0",
     "babel-preset-node6": "^11.0.0",
     "delay": "^2.0.0",
     "sha256": "^0.2.0"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
     "babel-eslint": "^8.2.1",
+    "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-es2015": "^6.24.1",
     "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-import": "^2.8.0"
+    "eslint-plugin-import": "^2.8.0",
+    "jest": "^23.4.2"
   }
 }

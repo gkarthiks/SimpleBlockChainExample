@@ -24,9 +24,9 @@ To run this program, download this code into your local repo and execute using b
 
 > cd SimpleBlockChainExample
 
-> npm install
+> npm run build
 
-> ./node_modules/babel-cli/bin/babel-node.js index.js 
+> npm start
 
 ### Sample Output:
 Your output will look like,

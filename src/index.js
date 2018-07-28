@@ -1,5 +1,5 @@
-import Block from './src/block';
-import BlockChain from './src/block-chain';
+import Block from './block';
+import BlockChain from './block-chain';
 //import delay from 'delay';
 
 let blockToBeCreated = 10;

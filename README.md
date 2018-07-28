@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/gkarthiks/SimpleBlockChainExample.svg?branch=master)](https://travis-ci.org/gkarthiks/SimpleBlockChainExample)
+---
+
 # SimpleBlockChainExample
 #### Simple example for the Block Chain implementation.
 

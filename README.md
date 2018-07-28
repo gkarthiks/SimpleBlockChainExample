@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/gkarthiks/SimpleBlockChainExample.svg?branch=master)](https://travis-ci.org/gkarthiks/SimpleBlockChainExample)
+![Node](https://img.shields.io/badge/node-v8-brightgreen.svg)   [![Build Status](https://travis-ci.org/gkarthiks/SimpleBlockChainExample.svg?branch=master)](https://travis-ci.org/gkarthiks/SimpleBlockChainExample)
 ---
 
 # SimpleBlockChainExample
